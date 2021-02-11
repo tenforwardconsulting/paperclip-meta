@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.authors       = ["Alexey Bondar", "Tee Parham"]
   s.email         = ["y8@ya.ru", "tee@neighborland.com"]
   s.homepage      = "http://github.com/teeparham/paperclip-meta"
-  s.summary       = "Add width, height, and size to paperclip images"
-  s.description   = "Add width, height and size methods to paperclip images"
+  s.summary       = "Add width, height, and size to paperclip images -- now supporting kt-paperclip"
+  s.description   = "Add width, height, and size methods to paperclip images -- now supporting kt-paperclip"
   s.license       = "MIT"
 
   s.files         = Dir["LICENSE.txt", "README.md", "lib/**/*"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.2.2"
 
-  s.add_dependency "paperclip", ">= 5.0"
+  s.add_dependency "kt-paperclip", ">= 5.0"
 
   s.add_development_dependency "bundler", "~> 1.13"
   s.add_development_dependency "rake", "~> 12.0"
